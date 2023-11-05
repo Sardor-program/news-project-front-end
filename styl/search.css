@@ -1,0 +1,30 @@
+body{
+    background-color: rebeccapurple;
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+.input-search{
+    width: 500px;
+    height: 40px;
+    border-radius: 40px;
+    border: hidden;
+}
+.button{
+    height: 40px;
+    border-radius:40px;
+    width: 90px;
+    border: hidden;
+    margin-left: 9px;
+}
+.input-search:hover{
+    border: rgb(55, 230, 227) solid 3px
+}
+.button:hover{
+    background-color: rgb(55, 230, 227);
+    
+}
